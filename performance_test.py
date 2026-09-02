@@ -14,6 +14,6 @@ execution_time = end_time - start_time
 print("Performance Test")
 print("Execution Time:", execution_time, "seconds")
 
-assert execution_time < 1.0, "Performance test failed"
+assert execution_time < 0.00001, "Performance test failed"
 
 print("Performance test passed")
