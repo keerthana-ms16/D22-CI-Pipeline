@@ -7,7 +7,7 @@ def multiply(a, b):
 
 
 if __name__ == "__main__":
-    print("Application is running")
+    print("Application is running successfully!!!!")
     print("Addition:", add(10, 20))
     print("Multiplication:", multiply(10, 20))
   
