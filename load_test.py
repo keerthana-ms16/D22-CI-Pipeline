@@ -17,6 +17,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=users) as executor:
 print("Number of simulated users:", users)
 print("Requests completed:", len(results))
 
-assert len(results) == users, "Load test failed"
+assert len(results) == users+1, "Load test failed"
 
 print("Load test passed")
